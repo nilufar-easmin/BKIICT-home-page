@@ -339,7 +339,7 @@ float:right;
     font-size: 14px;
 }
 .scroll-2 ul li a:hover{
-    color: #3378cd;
+    color: #2a4a71;
 }
 .col5 {
 	background: #242C42;
@@ -574,3 +574,77 @@ fieldset{
 
 
 /* login page end */
+
+/* home page outside part  start*/
+.outside{
+
+}
+.linkcourse1{
+	display: none;
+}
+.linkcourse{
+	outline: none;
+	border: none;
+	background-color: #86BC42;
+	text-transform: uppercase;
+	margin-left: 40px;
+}
+.course {
+	border: 1px solid #86BC42;
+	height: 90px;
+	width: 200px; 
+	margin-left: 40px;
+	padding-top: 12px;
+	display: none;
+	position: relative;
+	z-index: 9999;
+}
+.course ul{}
+.course ul li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+.course ul li button {
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	
+	border-bottom: 1px solid #86BC42;
+	background: no-repeat;
+	padding: 0px;
+	text-align: center;
+
+}
+.longcourse {
+	margin-top: 10px;
+	
+	height: 583px;
+	background: #ddd;
+	overflow: hidden;
+	width: 500px;
+	margin-bottom: 50px;
+	display: none;
+	position: relative;
+	z-index: 9999;
+}
+.longcourse1 h2 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.longcourse1 p {
+	padding: 10px;
+	text-align: justify;
+	font-size: 12px;
+	color: black;
+}
+
+
+/* home page outside part  end*/
+
+/* trainers page */
+.trainerList{
+	width: 100%;
+	height: 100px;
+
+}
